@@ -1,0 +1,19 @@
+# Album Configuration
+# Copy this file to album.txt and fill it out, then run: uv run python download_album.py
+
+url: https://youtu.be/p3xVELuRzKk
+artist: La Banda Nueva
+album: La Gran Feria
+year: 1973
+
+# Tracklist (timestamp followed by track title)
+0:00 Emiliano Pinilla
+2:39 Al Que Madruga Le Da Sueño
+5:38 Quiero Contarte
+9:39 Extinción
+12:57 El Blues Del Bus
+15:55 La Gran Feria
+19:44 Rumba 1
+22:52 Rumba 2
+25:50 Mundo De Imágenes
+29:42 Don J

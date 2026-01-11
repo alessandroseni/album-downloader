@@ -1,0 +1,6 @@
+output/
+.venv/
+*cookies*.txt
+__pycache__/
+.DS_Store
+album.txt

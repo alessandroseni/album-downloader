@@ -1,0 +1,12 @@
+[project]
+name = "album-downloader"
+version = "0.1.0"
+description = "Download YouTube albums and split into individual tracks"
+requires-python = ">=3.11"
+dependencies = [
+    "yt-dlp>=2024.1.0",
+    "mutagen>=1.47.0",
+]
+
+[project.scripts]
+download-album = "download_album:main"
