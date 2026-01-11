@@ -13,7 +13,16 @@ uv sync
 
 1. Copy `album.example.txt` to `album.txt`
 2. Fill in the URL, artist, album, year, and tracklist
-3. (Optional) Export YouTube cookies to `cookies.txt` if authentication is required
+3. Export YouTube cookies (see below)
 4. Run: `uv run python download_album.py`
 
 Output goes to `output/Artist - Album (Year)/`
+
+## Exporting YouTube Cookies
+
+YouTube requires authentication to download some videos. To export your cookies:
+
+1. Install the [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) browser extension
+2. Go to YouTube and make sure you're logged in
+3. Click the extension icon and export cookies
+4. Save the file as `cookies.txt` in this project folder
